@@ -1,0 +1,33 @@
+{
+  "name": "field-checker",
+  "version": "1.0.0",
+  "description": "A Regular Verification Tool for Functional Programming",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "rollup -c && tsc -b ./tsconfig.types.json",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js"
+  },
+  "files": [
+    "dist"
+  ]
+}
