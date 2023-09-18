@@ -3,8 +3,8 @@
 Clone this repository and install its dependencies:
 
 ```bash
-git clone https://github.com/rollup/rollup-starter-lib
-cd rollup-starter-lib
+git clone https://github.com/spuerzjj/common-regex-fp
+cd common-regex-fp
 npm install
 ```
 
@@ -22,6 +22,8 @@ npm install
 `npm test` builds the library, then tests it.
 
 ## How to use
+
+1. npm install 
 
 
 

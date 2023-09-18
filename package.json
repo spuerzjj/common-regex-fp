@@ -1,5 +1,5 @@
 {
-  "name": "field-checker",
+  "name": "common-regex-fp",
   "version": "1.0.0",
   "description": "A Regular Verification Tool for Functional Programming",
   "main": "dist/index.cjs.js",
@@ -14,7 +14,6 @@
     }
   },
   "type": "module",
-  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
@@ -29,5 +28,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spuerzjj/common-regex-fp"
+  }
 }
